@@ -1,5 +1,5 @@
-import numpy as np 
-import matplotlib as plt 
+import numpy as np  # type: ignore
+import matplotlib as plt  # type: ignore
 
 
 #SE4
