@@ -1,41 +1,39 @@
 import numpy as np  # type: ignore
-import matplotlib as plt  # type: ignore
+import matplotlib.pyplot as plt  # type: ignore
 
-
-#SE4
-#Generation subplots
-
+# Generation subplots
 fig, ax = plt.subplots()
 
-#definition du signal
-f0= 440
-a0=1.0
-fs=520
-phi0= 2*np.pi/3
+# Définition du signal
+f0 = 440    # Fréquence du signal
+a0 = 1.0    # Amplitude
+fs = 520    # Fréquence d'échantillonnage
+phi0 = 2 * np.pi / 3  # Phase initiale
 
-fc= f0*100  #sampling for continuous
+fc = f0 * 100  # Échantillonnage pour le signal continu
 
-start = -20e-3
-stop = 20e-3
+start = -20e-3  # Temps de départ
+stop = 20e-3    # Temps d'arrêt
 
-# sampled signal
+# Signal échantillonné
+t = np.arange(start, stop + 1/fs, 1/fs)
+x = a0 * np.sin(2 * np.pi * f0 * t + phi0)
 
-t = np.arange(start, stop+1/fs,1/fs)
-x = a0*np.sin(2*np.sin(2*np.pi*f0*t+phi0))
+# Signal continu
+tc = np.arange(start, stop + 1/fc, 1/fc)
+xc = a0 * np.sin(2 * np.pi * f0 * tc + phi0)
 
-# "continous signal"
+# Affichage du graphique
+ax.plot(t, x, 'o', label="Sampled Signal")
+ax.plot(tc, xc, '--', label="Continuous Signal")
 
-tc = np.arange(start,stop+1/fc,1/fc)
-xc = a0*np.sin(2*np.sin(2*np.pi*f0*t+phi0))
+# Ajout des légendes
+ax.set_xlabel('Time (s)', fontsize=10)
+ax.set_ylabel('Amplitude', fontsize=10)
+ax.set_title('Signal continuous et échantillonné à %d Hz (échantillonné à %d Hz)' % (f0, fs))
 
+# Affichage de la légende
+ax.legend()
 
-#plot the graph 
-
-ax.plot(t,x,'o',tc,xc,'--')
-
-#labeling the figure
-
-ax.set_xlabel('time',fontsize=10)
-ax.set_ylabel('amplitude',fontsize=10)
-ax.set_title('continuous sampled at %d Hz' %(f0,fs))
-
+# Affichage du graphique
+plt.show()
