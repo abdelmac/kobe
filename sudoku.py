@@ -10,7 +10,7 @@ for i in range(9):
     for j in input().split():
 
         n = int(j)
-        L.append(n)
+        L.append(n.split())
 
 
 # Write an answer using print
@@ -21,3 +21,5 @@ print("true or false")
 print(input())
 
 print(n)
+
+print(L)
