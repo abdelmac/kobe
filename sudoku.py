@@ -10,7 +10,10 @@ for i in range(9):
     for j in input().split():
 
         n = int(j)
-        L.append(n.split())
+
+        print(n.type())
+        print(j.type())
+        L.append(j.split())
 
 
 # Write an answer using print
