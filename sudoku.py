@@ -8,7 +8,7 @@ L=[]
 
 for i in range(9):
     for j in input().split():
-        k=int(j[0].split())
+        k=int(j[0][0].split())
 
         n = int(j)
 
