@@ -8,13 +8,11 @@ L=[]
 
 for i in range(9):
     for j in input().split():
-        k=j[0].split()
-
+        
+        k=j.split()
+        
         n = int(j)
-
-        print(type(k))
-        print(k)
-        L.append(j.split())
+        L.append(k)
 
 
 # Write an answer using print
@@ -22,8 +20,16 @@ for i in range(9):
 
 print("true or false")
 
-print(input())
+print(L[1])
 
-print(n)
+reponse="true"
 
-print(L)
+for i in range(9):
+    for j in range(9):
+        if L[i][i]==L[i][j]:
+            reponse="false"
+
+for i in range(9):
+    for j in range(9):
+        if L[i][i]==L[j][i]:
+            reponse="false"
