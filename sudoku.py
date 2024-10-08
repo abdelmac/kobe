@@ -11,8 +11,8 @@ for i in range(9):
 
         n = int(j)
 
-        print(n.type())
-        print(j.type())
+        print(type(n))
+        print(type(j))
         L.append(j.split())
 
 
