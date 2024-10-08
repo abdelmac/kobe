@@ -8,11 +8,12 @@ L=[]
 
 for i in range(9):
     for j in input().split():
+        k=j.split()
 
-        n = int(j)
+        n = int(k)
 
-        print(type(n))
-        print(type(j))
+        print(type(k))
+        print(k)
         L.append(j.split())
 
 
