@@ -10,7 +10,7 @@ for i in range(9):
     for j in input().split():
         k=j.split()
 
-        n = int(k)
+        n = int(j)
 
         print(type(k))
         print(k)
