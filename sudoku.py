@@ -50,3 +50,5 @@ for i in range(9):
     for j in range(9):
         if L[i][i]==L[j][i]:
             reponse="false"
+
+
