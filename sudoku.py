@@ -7,11 +7,11 @@ import math
 M=[]
 A=[]
 
-for i in range(10):
+for i in range(9):
     A.append(0)
-for i in range(10):
+for i in range(9):
     M.append(A)
-for i in range(10):    
+for i in range(9):    
     print(M[i])
 
 
