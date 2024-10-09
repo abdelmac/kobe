@@ -9,7 +9,7 @@ A=[]
 
 for i in range(9):
     for j in range(9):
-        A.append(0)
+        A[j]=0
     M.append(A)
 
 print(M)
