@@ -17,8 +17,8 @@ for i in range(9):
 
 
         L.append(n)
-        M.append(L)
-        print(M)
+    M.append(L)
+    print(M)
 
 
 # Write an answer using print
