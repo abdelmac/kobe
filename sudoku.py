@@ -12,6 +12,9 @@ for i in range(9):
         k=j.split()
 
         n = int(j)
+        print(n)
+
+
         L.append(n)
         print(L)
 
