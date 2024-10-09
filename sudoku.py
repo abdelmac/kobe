@@ -25,6 +25,8 @@ for i in range(9):
         b=int(j)
         M[a][b]=n
 
+for i in range(10):
+    print(M)
 
 # Write an answer using print
 # To debug: print("Debug messages...", file=sys.stderr, flush=True)
