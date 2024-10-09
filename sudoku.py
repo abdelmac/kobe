@@ -29,14 +29,4 @@ for i in range(9):
 
 reponse="true"
 
-for i in range(9):
-    for j in range(9):
-        if L[i]==L[i]:
-            reponse="false"
-
-for i in range(9):
-    for j in range(9):
-        if L[i]==L[j]:
-            reponse="false"
-
 
