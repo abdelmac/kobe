@@ -3,6 +3,13 @@ import math
 
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
+C=[1,2,3,4,5,6,7,8,9]
+
+print("1"+ C[3:])
+
+print("2" + C[:2])
+
+
 
 L=[]
 A=[]
@@ -36,3 +43,4 @@ for i in range(9):
 
 
 print(reponse)
+
