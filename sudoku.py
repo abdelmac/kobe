@@ -4,8 +4,15 @@ import math
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
 
-L=[]
 M=[]
+
+for i in range(9):
+    for j in range(9):
+        M.append(0)
+
+
+L=[]
+
 
 for i in range(9):
     for j in input().split():
