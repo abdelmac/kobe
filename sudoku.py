@@ -22,7 +22,7 @@ for i in range(9):
         b=int(j)-1
         M[a][b]=n
 
-for i in range(10):
+for i in range(9):
     print(M[i])
 
 # Write an answer using print
