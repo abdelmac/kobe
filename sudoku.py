@@ -4,9 +4,11 @@ import math
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
 
-C=[1,2,3,4,5,6]
+#C=[1,2,5,4,5,6]
 
-print(C[-3::5])
+#i=C.count(5)
+
+#print(i)
 
 
 L=[]
@@ -20,12 +22,13 @@ for i in range(9):
 for i in range(9):
     for j in input().split():        
         n = int(j)
+        print(n)
         a=int(i)-1
         b=int(j)-1
-        L[a][b]=n
+        L[a][b]=j
 
-#for i in range(9):
-#    print(L[i])
+for i in range(9):
+    print(L[i])
 
 # Write an answer using print
 # To debug: print("Debug messages...", file=sys.stderr, flush=True)
@@ -39,7 +42,7 @@ for i in range(9):
 
 
 
-print(reponse)
+print( reponse )
 
 
 
