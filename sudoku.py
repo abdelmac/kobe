@@ -13,6 +13,7 @@ for i in range(9):
 
         n = int(j)
         L.append(n)
+        print(L)
 
 
 # Write an answer using print
