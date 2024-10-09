@@ -21,6 +21,7 @@ for i in range(9):
     for j in input().split():        
         n = int(j)
         print(n)
+        L.append(n)
         a=int(i)
         b=int(j)
         M[a][b]=n
