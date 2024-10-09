@@ -22,10 +22,9 @@ for i in range(9):
 for i in range(9):
     for j in input().split():        
         n = int(j)
-        print(n)
         a=int(i)-1
         b=int(j)-1
-        L[a][b]=j
+        L[a][b]=n
 
 for i in range(9):
     print(L[i])
