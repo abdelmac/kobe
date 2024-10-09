@@ -10,6 +10,7 @@ for i in range(9):
     for j in range(9):
         M.append(0)
 
+print(M)
 
 L=[]
 
