@@ -11,7 +11,8 @@ for i in range(9):
     A.append(0)
 for i in range(9):
     M.append(A)
-print(M)
+for i in range(9):    
+    print(M[i])
 
 L=[]
 
