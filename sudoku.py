@@ -18,8 +18,8 @@ for i in range(10):
 for i in range(9):
     for j in input().split():        
         n = int(j)
-        a=int(i)
-        b=int(j)
+        a=int(i-1)
+        b=int(j-1)
         M[a][b]=n
 
 for i in range(10):
