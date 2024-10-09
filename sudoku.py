@@ -14,22 +14,13 @@ for i in range(10):
 for i in range(10):    
     print(M[i])
 
-L=[]
-B=[]
 
 for i in range(9):
     for j in input().split():        
         n = int(j)
-        print(n)
-        L.append(n)
         a=int(i)
         b=int(j)
         M[a][b]=n
-    B.append(L)
-    
-
-print(L)
-L=[]
 
 for i in range(10):
     print(M[i])
