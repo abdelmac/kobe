@@ -4,6 +4,11 @@ import math
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
 
+C=[1,2,3,4,5,6]
+
+print(C[:-3])
+
+
 L=[]
 A=[]
 
