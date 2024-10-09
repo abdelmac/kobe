@@ -5,10 +5,12 @@ import math
 # the standard input according to the problem statement.
 
 M=[]
+A=[]
 
 for i in range(9):
     for j in range(9):
-        M[i][j]=[0]
+        A.append(0)
+    M.append(A)
 
 print(M)
 
