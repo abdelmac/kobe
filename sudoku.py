@@ -6,7 +6,7 @@ import math
 
 C=[1,2,3,4,5,6]
 
-print(C[:-3])
+print(C[-3:])
 
 
 L=[]
