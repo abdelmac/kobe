@@ -9,7 +9,6 @@ C=[1,2,3,4,5,6]
 print(C[-3:])
 
 
-
 L=[]
 A=[]
 
@@ -25,8 +24,8 @@ for i in range(9):
         b=int(j)-1
         L[a][b]=n
 
-for i in range(9):
-    print(L[i])
+#for i in range(9):
+#    print(L[i])
 
 # Write an answer using print
 # To debug: print("Debug messages...", file=sys.stderr, flush=True)
@@ -35,11 +34,15 @@ reponse="true"
 
 for i in range(9):
     for j in range(9):
-        if L[i][i]==L[i][j]:
+        if (L[i][j] in L[i][-j:]) or (L[i][j] in L[i][:j]):
             reponse="false"
 
 
 
-
 print(reponse)
+
+
+
+
+
 
