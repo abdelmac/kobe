@@ -8,7 +8,7 @@ M=[]
 
 for i in range(9):
     for j in range(9):
-        M[i][j]=0
+        M[i][j]=[0]
 
 print(M)
 
