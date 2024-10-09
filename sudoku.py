@@ -8,9 +8,8 @@ M=[]
 A=[]
 
 for i in range(9):
-    
-    M.append(0*9)
-
+    A.append(0)
+M.append(9*A)
 print(M)
 
 L=[]
