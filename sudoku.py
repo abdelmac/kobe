@@ -5,6 +5,7 @@ import math
 # the standard input according to the problem statement.
 
 L=[]
+M=[]
 
 for i in range(9):
     for j in input().split():
@@ -16,7 +17,7 @@ for i in range(9):
 
 
         L.append(n)
-        print(L)
+        M.append(L)
 
 
 # Write an answer using print
