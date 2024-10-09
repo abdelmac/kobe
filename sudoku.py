@@ -26,7 +26,10 @@ for i in range(9):
         b=int(j)
         M[a][b]=n
     B.append(L)
-    L=[]
+    
+
+print(L)
+L=[]
 
 for i in range(10):
     print(M[i])
