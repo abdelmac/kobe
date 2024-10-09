@@ -19,8 +19,8 @@ for i in range(9):
         b=int(j)-1
         L[a][b]=n
 
-#for i in range(9):
-#    print(L[i])
+for i in range(9):
+    print(L[i])
 
 # Write an answer using print
 # To debug: print("Debug messages...", file=sys.stderr, flush=True)
