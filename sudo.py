@@ -19,7 +19,7 @@ M=[]
 for i in range(9):
     for j in input().split():        
         n = int(j)
-        a=int(i)-2
+        a=int(i)-1
         b=int(j)-1
         M.append(n)
     print(M)
