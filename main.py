@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt  # type: ignore
 fig, ax = plt.subplots()
 
 # Définition du signal
-f0 = 440    # Fréquence du signal
+f0 = 110    # Fréquence du signal
 a0 = 1.0    # Amplitude
 fs = 520    # Fréquence d'échantillonnage
 phi0 = 2 * np.pi / 3  # Phase initiale
