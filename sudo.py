@@ -37,7 +37,7 @@ reponse="true"
 
 for i in range(9):
     for j in range(9):
-        if (L[i][j] in L[i][j:]) or (L[i][j] in L[i][:j]):
+        if (L[i][j] in L[i][-j:]) or (L[i][j] in L[i][:j]):
             reponse="false"
             print(reponse)
 
