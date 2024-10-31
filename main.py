@@ -12,7 +12,7 @@ phi0 = 2 * np.pi / 3  # Phase initiale
 
 fc = f0 * 100  # Échantillonnage pour le signal continue
 
-start = -20e-6  # Temps de départ
+start = -20e-61  # Temps de départ
 stop = 20e-3    # Temps d'arrêt
 
 # Signal échantillonné
