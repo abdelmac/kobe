@@ -34,7 +34,7 @@ for i in range(3):
 # To debug: print("Debug messages...", file=sys.stderr, flush=True)
 
 reponse="true"
-r=12345678910111213141516171819202122232425262728
+r=1234567891011121314151617181920212223242526272
 for i in range(9):
     for j in range(9):
         if (L[i][j] in L[i][-j:]) or (L[i][j] in L[i][:j]):
